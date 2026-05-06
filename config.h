@@ -8,7 +8,7 @@
 #define WEEK 			DAY*7
 #define YEAR 			DAY*365
 //Configurable
-#define NUMASTEROIDS 100
+#define NUMASTEROIDS 1000
 #define GRAV_CONSTANT 6.67e-11 //the gravitational constant
 #define MAX_DISTANCE 5000.0
 #define MAX_VELOCITY 50000.0
@@ -19,3 +19,5 @@
 
 #define NUMENTITIES (NUMPLANETS+NUMASTEROIDS+1)
 #endif
+
+
